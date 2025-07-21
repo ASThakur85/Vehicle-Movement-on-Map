@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Vehicle-Movement-on-Map/static/css/main.323d7611.css",
+    "main.js": "/Vehicle-Movement-on-Map/static/js/main.346803cf.js",
+    "static/media/bus-icon.png": "/Vehicle-Movement-on-Map/static/media/bus-icon.cc91abfc606296dcb9ba.png",
+    "index.html": "/Vehicle-Movement-on-Map/index.html",
+    "main.323d7611.css.map": "/Vehicle-Movement-on-Map/static/css/main.323d7611.css.map",
+    "main.346803cf.js.map": "/Vehicle-Movement-on-Map/static/js/main.346803cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.323d7611.css",
+    "static/js/main.346803cf.js"
+  ]
+}
