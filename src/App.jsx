@@ -93,10 +93,8 @@ const VehicleMap = () => {
     const latDiff = (end.latitude - start.latitude) / steps;
     const lngDiff = (end.longitude - start.longitude) / steps;
 
-    // Calculate angle
     const angle = getBearing(start.latitude, start.longitude, end.latitude, end.longitude);
 
-    // Update icon with rotation
     markerRef.current.setIcon(createBusIcon(angle));
     markerRef.current.options.rotationAngle = angle;
 
@@ -214,7 +212,6 @@ const VehicleMap = () => {
   );
 };
 
-// Helper: Distance between two geo coordinates
 function getDistance(coord1, coord2) {
   const R = 6371e3;
   const φ1 = coord1.latitude * (Math.PI / 180);
@@ -231,7 +228,6 @@ function getDistance(coord1, coord2) {
   return R * c;
 }
 
-// Helper: Get bearing/angle in degrees between two lat/lng points
 function getBearing(lat1, lon1, lat2, lon2) {
   const φ1 = (lat1 * Math.PI) / 180;
   const φ2 = (lat2 * Math.PI) / 180;
